@@ -45,4 +45,9 @@ class GitTools
 		return URL::to($this->constructUrl($path), $extra, $secure);
 	}
 
+	public function __call($name, $arguments)
+	{
+		return call_user_func(array($this->tools, $name), $arguments);
+	}
+
 }
