@@ -1,0 +1,28 @@
+{
+    "name": "weyforth/laravel-git",
+    "description": "",
+    "license": "proprietary",
+    "repositories": [
+        { "type":"git", "url":"git@bitbucket.org:weyforth/php-git.git" }
+    ],
+    "require": {
+        "laravel/framework": "4.2.*",
+        "weyforth/php-git": "*"
+    },
+    "authors": [
+        {
+            "name": "Mike Farrow",
+            "email": "contact@mikefarrow.co.uk"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "Weyforth\\GitLaravel": "src/"
+        }
+    },
+    "config": {
+        "preferred-install": "dist"
+    },
+    "minimum-stability": "dev",
+    "preferred-stability": "stable"
+}
