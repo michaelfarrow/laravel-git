@@ -1,6 +1,6 @@
 <?php
 /**
- * Handlebars Service Provider.
+ * Git Service Provider.
  *
  * @author    Mike Farrow <contact@mikefarrow.co.uk>
  * @license   Proprietary/Closed Source

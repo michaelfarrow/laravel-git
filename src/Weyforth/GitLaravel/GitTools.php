@@ -1,9 +1,8 @@
 <?php
 /**
- * Handlebars Laravel extension.
+ * Git Laravel extension.
  *
- * Class to allow helpers to be added to be used by
- * the accompanying engine
+ * Provides versioned urls to script and style tags
  *
  * @author    Mike Farrow <contact@mikefarrow.co.uk>
  * @license   Proprietary/Closed Source

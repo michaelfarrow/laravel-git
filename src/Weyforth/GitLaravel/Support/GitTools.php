@@ -1,6 +1,6 @@
 <?php
 /**
- * Facade to expose Handlebars class.
+ * Facade to expose GitTools class.
  *
  * @author    Mike Farrow <contact@mikefarrow.co.uk>
  * @license   Proprietary/Closed Source
