@@ -31,9 +31,7 @@ class GitToolsServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->bind('gittools', function(){
-            return new GitTools;
-        });
+        $this->app->instance('gittools', new GitTools);
     }
 
 
