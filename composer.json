@@ -7,7 +7,7 @@
     ],
     "require": {
         "laravel/framework": "4.2.*",
-        "weyforth/php-git": "dev-master"
+        "weyforth/php-git": "*"
     },
     "authors": [
         {
